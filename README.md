@@ -14,6 +14,16 @@
 
 [API Reference 바로가기](https://pub.dev/documentation/flutter_naver_map/latest/)
 
+## Repository URL Change & Old SDK Obsoletion 
+
+네이버에서 기존 레포지토리를 무효화하고 새 패키지 레포지토리를 운영함에 따라 다음의 설치과정이 추가되었습니다.
+
+### iOS Setup
+```
+pod repo add navermaps-nmapmaplegacyspecs https://github.com/navermaps/NMapsMapLegacySpecs
+pod install --repo-update
+```
+
 ## Flutter 3.22 Support
 - 현재 최신버전 (<flutter 3.22): `1.2.2`
 - Flutter 3.22 대응 최신 버전: `1.2.2+flutter3.22`
